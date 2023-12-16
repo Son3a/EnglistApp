@@ -58,7 +58,7 @@ flutter:
     - assets/images/
     - assets/icons/
     - assets/fonts/
-    - assets/fonts/sen
+    - assets/fonts/sen/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -74,11 +74,11 @@ flutter:
   fonts:
     - family: Sen
       fonts:
-        - asset: fonts/Sen-Bold.ttf
-        - asset: fonts/Sen-ExtraBold.ttf
-        - asset: fonts/Sen-Medium.ttf
-        - asset: fonts/Sen-Regular.ttf
-        - asset: fonts/Sen-SemiBold.ttf
+        - asset: assets/fonts/sen/SenBold.ttf
+        - asset: assets/fonts/sen/SenExtraBold.ttf
+        - asset: assets/fonts/sen/SenMedium.ttf
+        - asset: assets/fonts/sen/SenRegular.ttf
+        - asset: assets/fonts/sen/SenSemiBold.ttf
           weight: 700
   #   - family: Trajan Pro
   #     fonts:
